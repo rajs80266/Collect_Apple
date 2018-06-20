@@ -1,0 +1,77 @@
+body
+{
+	background-color : green;
+}
+
+#live1,#live2,#live3
+{
+	width : 100px;
+	height : 130px;
+}
+
+#snake
+{
+	padding-top : 50px;
+	width : 900px;
+	height : 900px;
+}
+
+#game_board
+{
+	padding-top : 50px;
+	padding-left : 1px;
+}
+
+.white
+{
+	width : 100px;
+	height : 100px;
+	padding : 0px 7px 0px 0px;
+	margin : 0px 0px 0px 0px;
+}
+
+.apple
+{
+	width : 100px;
+	height : 130px;
+	display : none;
+}
+
+.btn
+{
+	width : 900px;
+	height : 100px;
+	margin : 5px;
+}
+
+.btn:active
+{
+	background-color : lightblue;
+	background-color : lightblue;
+}
+
+a
+{
+	color : black;
+	text-decoration : none;
+}
+
+div
+{
+	text-align : center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+	float : left;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color : darkblue;
+}
