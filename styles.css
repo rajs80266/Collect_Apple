@@ -37,11 +37,21 @@ body
 	display : none;
 }
 
-.btn
+.btn,.levels
 {
 	width : 900px;
 	height : 100px;
 	margin : 5px;
+}
+
+.levels
+{
+	background-color : red;
+}
+
+#l01
+{
+	background-color : lightgreen;
 }
 
 .btn:active
@@ -81,4 +91,16 @@ div
 	width : 955px;
 	height : 50px;
 	margin : auto;
+}
+
+#play,#next
+{
+	display : none;
+}
+
+.button3
+{
+	width : 300px;
+	height : 100px;
+	margin : 5px;
 }
